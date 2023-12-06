@@ -1,0 +1,135 @@
+body{
+    background-color: white;
+}
+
+
+.menu{  
+  z-index: 1;
+	font-family: 'Oswald', sans-serif;
+text-decoration:none;
+font-size:40px;
+position:fixed;
+top:-10px;
+left: 400px;
+width: 200px;
+height: 130px;
+display:flex;
+justify-content:center;
+align-items:center;
+color: aliceblue;
+background-color:#1e1e24;
+border-radius: 40px;
+border-top-right-radius: 0px;
+border-top-left-radius:0px ;
+padding: 10px;
+
+
+}
+.menu:hover{
+  background-color: #3066be;
+}
+
+.du{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+font-size: 60px;;
+position: relative;
+left: 630px;
+top: 20px;
+width: 600px;
+height: 70px;
+text-decoration: none;
+color: #531e7e;
+justify-content:center;
+align-items:center;
+display: flex;
+
+}
+
+.du:hover{
+    color: #906faf;
+}
+
+.p1 {
+    position: relative;
+    top: 150px;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color:#1e1e24 ;
+    font-family: 'Oswald', sans-serif;  
+
+  }
+
+  .pp {
+    z-index: 2;
+	font-family: 'Oswald', sans-serif;
+text-decoration:none;
+font-size:40px;
+position:fixed;
+top:-10px;
+left: 1250px;
+width: 200px;
+height: 130px;
+display:flex;
+justify-content:center;
+align-items:center;
+color: aliceblue;
+background-color:#1e1e24;
+border-radius: 40px;
+border-top-right-radius: 0px;
+border-top-left-radius:0px ;
+padding: 10px;
+
+
+  }
+
+  .pp:hover{
+    background-color: #3066be;
+  }
+  
+
+  .p2{
+    text-indent: 40px;
+  }
+  .p3{
+    text-indent: 40px;
+  }
+  .p4{
+    text-indent: 40px;
+  }
+  .p5{
+    text-align: center;
+    font-weight: bold;
+  }
+
+
+.line{
+   background-color: #1e1e24;
+    width: 1500px;
+    height: 5px;
+    justify-content:center; 
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+  .img1{
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  .img1{
+    display: inline-block; 
+    overflow: hidden; 
+  }
+  .img1{
+    transition: 0.2s; 
+    display: block; 
+  }
+  .img1:hover {
+    transform: scale(1.1); 
+  }
+  
